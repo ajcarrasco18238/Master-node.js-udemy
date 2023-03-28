@@ -32,11 +32,34 @@ document.write("</ul>");
 */
 
 // foreach la ams limpia
-
+/*
 document.write("<h1>lenguaje de programacion </h1>");
 lenguajes.forEach((elemento, indices)=>{
   
     document.write("<li>"+ indices +" - " +elemento+"</li>");
 });
+*/
 
 
+// Busquedas
+
+/*
+var busqueda = lenguajes.find(lenguajes => lenguajes == "php");
+
+console.log(busqueda);
+*/
+// Busquedas con index muestra indice en el que s emuestra este casos eria 0
+
+/*
+var busqueda = lenguajes.findIndex(lenguajes => lenguajes == "php");
+
+console.log(busqueda);
+*/
+
+// busqiueda de que ellementos hay igual o mauyores a 20 tru si cumple la condicion
+
+var precios = [10, 20, 50, 80, 12];
+
+var busqueda = lenguajes.some(precios => precios >= "20");
+
+console.log(busqueda);
